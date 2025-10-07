@@ -1,4 +1,3 @@
-# SeeThru
 <h2> Real time webcam monitorting system with Object detection.</h2>
 
 Install all the libraries given in the requirements.txt file
@@ -19,9 +18,9 @@ pip install gtts
 pip install pydub
 pip install reportlab
 ```
-[face_detection.py](face_detection.py) file uses cascade filters to detect the face and there is a threshold value of 5sec set in the function such that, if the user is not detected for more than 5sec it shoots an alert with buzzer sound.
+- [face_detection.py](face_detection.py) file uses cascade filters to detect the face and there is a threshold value of 5sec set in the function such that, if the user is not detected for more than 5sec it shoots an alert with buzzer sound.
 
-[object_detection.py](object_detection.py) file uses YOLO libraries to detect the objects that are present in the captured area and prints the objects with their respective positions in the terminal.
+- [object_detection.py](object_detection.py) file uses YOLO libraries to detect the objects that are present in the captured area and prints the objects with their respective positions in the terminal.
 
 We integrate the features of both [face_detection.py](face_detection.py) and [object_detection.py](object_detection.py) in [main.py](main.py).
 
